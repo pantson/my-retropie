@@ -64,7 +64,7 @@ Use the EmulationStation menu to enable collections and the _RANDOM_ collection 
 
 To change the number of roms in the list, change this line
 ```
-# number of random files of each emuulator
+# number of random roms
 files=35
 ```
 
