@@ -23,6 +23,8 @@ Use the Splash screen randomizer in rpsetup to randomise through splashscreens
 Sometimes there are too many roms to choose something new to play. So Ive created 2 scripts that will create randoms roms for you.
 The first will create a copy of the the roms in the appropriate rom folder, the other will create a random collection of roms that you will be able to select from your Collections in EmulationStation.
 
+Both scripts can be enabled at the saem time if you want.
+
 ### random-roms.sh
 
 This script will copy random roms into the root of the emultor folder from the archive folder.
@@ -64,7 +66,7 @@ Use the EmulationStation menu to enable collections and the _RANDOM_ collection 
 
 To change the number of roms in the list, change this line
 ```
-# number of random files of each emuulator
+# number of random roms
 files=35
 ```
 
