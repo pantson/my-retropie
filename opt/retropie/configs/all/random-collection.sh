@@ -22,7 +22,7 @@ echo "Random ROM collection...."
 for f in $(find $roms -regex ".*\.\($extensions\)"|shuf -n $files); do
   file=$(echo $f | rev | cut -d'/' -f1 | rev)
   echo "$file"
-  echo "$f">>"$collection/custom-_RANDOM_.cfg"
+  echo "$f">>"$collection/custom-__RANDOM__.cfg"
 done
 echo "-------------"
 custom_collections=__RANDOM__
